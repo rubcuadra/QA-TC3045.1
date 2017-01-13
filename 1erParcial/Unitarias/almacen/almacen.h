@@ -1,3 +1,4 @@
+#pragma once
 #include <vector>
 
 template<class T>
@@ -14,6 +15,7 @@ public:
 	}
 	void add(T e){v.push_back(e);}
 	void deleteAt(int index){v.erase(v.begin()+index);}
+	void clear(){v.clear();}
 	bool isEmpty(){return v.size()==0;}
 	int getCapacity(){return v.capacity();}
 	int getSize(){return v.size();}

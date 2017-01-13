@@ -1,6 +1,6 @@
 #include <iostream>
 #include "almacen.h"
-
+/*
 int main(int argc, char const *argv[])
 {
 	Almacen<int> *al = new Almacen<int>(5);
@@ -12,3 +12,4 @@ int main(int argc, char const *argv[])
 	std::cout<<al->getSize()<<'\n';
 	return 0;
 }
+*/
