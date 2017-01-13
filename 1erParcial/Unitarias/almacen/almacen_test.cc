@@ -1,15 +1,23 @@
 #include "gtest/gtest.h"
 #include "almacen.h"
+#include "time.h"
 
 class TimeFixture : public ::testing::Test
 {
-	static void SetUpTestCase(){}
 
-	void SetUp(){}
+public:
+	virtual void SetUp()
+	{
+		tiempo = time(NULL)
+	}
 
-	void TearDown(){}
+	virtual void TearDown()
+	{
+		EXPECT_TRUE( (time(NULL)-tiempo<=10) );//Esperamos que sea menor de 10s
+	}
 
-	static void TestDownTestCase(){}
+private:
+	time_t tiempo;
 }
 
 class AlmacenFixture : public ::testing::Test
@@ -27,10 +35,12 @@ public:
 	{
 		a->add(20);
 		a->add(10);
+		TimeFixture::Setup();
 	}
 
 	void TearDown()
 	{
+		TimeFixture::TearDown();
 		a->clear();
 	}
 
@@ -50,4 +60,9 @@ TEST_F(AlmacenFixture, capacidad)
 TEST_F(AlmacenFixture, size)
 {
 	ASSERT_EQ(2,a->getSize());
+}
+
+TEST_F(AlmacenFixture, time)
+{
+	//Sleep 11 seconds
 }
