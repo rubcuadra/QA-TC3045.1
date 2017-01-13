@@ -1,6 +1,17 @@
 #include "gtest/gtest.h"
 #include "almacen.h"
 
+class TimeFixture : public ::testing::Test
+{
+	static void SetUpTestCase(){}
+
+	void SetUp(){}
+
+	void TearDown(){}
+
+	static void TestDownTestCase(){}
+}
+
 class AlmacenFixture : public ::testing::Test
 {
 
