@@ -25,5 +25,6 @@ TEST_P(FixValParam,nones)
 }
 
 int array[] = {1,2,3,4,5,6,7,8,9}; //Pudo ser un vector
-//INSTANTIATE_TEST_CASE_P(Values,FixValParam,testing::Values(2,4,6,8));
 INSTANTIATE_TEST_CASE_P(UsingValuesIn,FixValParam,testing::ValuesIn(array));
+
+INSTANTIATE_TEST_CASE_P(Values,FixValParam,testing::Values(2,4,6,8));
