@@ -10,4 +10,3 @@ g++ -isystem ../../googletest/googletest/include/ -pthread almacen/main.cc almac
 ./prueba
 echo 'parametrized/'
 g++ -isystem ../../googletest/googletest/include/ -pthread  parametrized/parametrized.cc   gtest_main.a  -o prueba
-g++ -isystem ../../googletest/googletest/include/ -pthread  parametrized/parametrized.cc   gtest_main.a  -o prueba
