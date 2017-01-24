@@ -1,8 +1,16 @@
 #pragma once
 #include <iostream>
+template <class T>
+class Base
+{
+public:
+    static bool asc(T a, T b){return a > b;};
+    static bool desc(T a, T b){return a < b;};
+};
 
 template <class T>
-class Ordenamiento {
+class Ordenamiento : public Base<T>
+{
 public:
     static void burbuja(T [], int, bool(*) (T, T));
     static void insercion(T [], int, bool(*) (T, T));
@@ -11,23 +19,7 @@ public:
     static void quicksort(T [], int, int, bool(*) (T, T));
     static void mergesort(T [], int, int, bool(*) (T, T), int);
     static void merge(T [], int, int, int, bool(*) (T, T), int);
-    
-    static bool asc(T, T);
-    static bool desc(T, T);
-    
 };
-
-template <class T>
-bool Ordenamiento<T>::asc(T a, T b)
-{
-    return a > b;
-}
-
-template <class T>
-bool Ordenamiento<T>::desc(T a, T b)
-{
-    return a < b;
-}
 
 template <class T>
 void Ordenamiento<T>::burbuja(T v[] , int n, bool compara (T, T))
