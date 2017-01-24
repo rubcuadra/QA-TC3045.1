@@ -28,7 +28,6 @@
 		9F3C69621E2E6BAA00959508 /* diccionario.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = diccionario.txt; sourceTree = "<group>"; };
 		9F3C69631E2E6BF600959508 /* encriptado.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = encriptado.txt; sourceTree = "<group>"; };
 		9F3C69641E2E6F2A00959508 /* Cypher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cypher.h; sourceTree = "<group>"; };
-		9F3C69651E2E6F6200959508 /* Caesar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Caesar.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +64,6 @@
 				9F3C695B1E2E69C600959508 /* main.cpp */,
 				9F3C69621E2E6BAA00959508 /* diccionario.txt */,
 				9F3C69641E2E6F2A00959508 /* Cypher.h */,
-				9F3C69651E2E6F6200959508 /* Caesar.h */,
 			);
 			path = cyphers;
 			sourceTree = "<group>";
@@ -254,6 +252,7 @@
 				9F3C69611E2E69C600959508 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

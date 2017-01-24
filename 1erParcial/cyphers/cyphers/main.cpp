@@ -10,7 +10,7 @@
 #include <fstream>
 #include <string>
 #include <vector>
-#include "Caesar.h"
+#include "Cypher.h"
 
 using std::  cout;
 using std::  endl;
@@ -21,7 +21,7 @@ using std::vector;
 
 string Encrypt(string, int);
 vector<string> getText( string fileName);
-string encrPATH = "encriptado.txt";
+string encrPATH = "/Users/rubcuadra/Code/QATC3045_1/1erParcial/cyphers/cyphers/encriptado.txt";
 
 int main(int argc, char *argv[])
 {
@@ -32,8 +32,9 @@ int main(int argc, char *argv[])
     string text = data.at(2);
     
     
-    caesar->decrypt(key);
-
+    string result = caesar->decrypt(key);
+    std::cout<<result<<"\n";
+    
     return 0;
 }
 
