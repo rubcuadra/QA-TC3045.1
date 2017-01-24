@@ -15,15 +15,8 @@ public:
 		sorter = new Ordenamiento<int>();
 	}
 
-	void SetUp()
-	{
-
-	}
-
-	void TearDown()
-	{
-
-	}
+	void SetUp(){}
+	void TearDown(){}
 
 	static void TestDownTestCase()
 	{
@@ -113,5 +106,3 @@ std::vector<int> v1 = {7, 5, 16, 8};
 std::vector<int> v2 = {10, 3, 22, 112};
 
 INSTANTIATE_TEST_CASE_P(UsingValues,FixValParam,testing::Values(v1,v2));
-
-//INSTANTIATE_TEST_CASE_P(Values,FixValParam,testing::Values(2,4,6,8));
