@@ -27,7 +27,5 @@ TYPED_TEST(FixTyped,testName)
 	this->instance2Test->burbuja( array , arr.size() , this->instance2Test->desc );
 	
 	for (int i = 0; i < arr.size()-1; ++i)
-		EXPECT_GE(  arr.at(i) , arr.at(i+1));  // >=
-	//EXPECT_EQ( 43, this->instance2Test->doSomething() ); 
-
+		EXPECT_GE(  arr.at(i) , arr.at(i+1)); 
 }
