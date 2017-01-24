@@ -6,19 +6,20 @@ class Base
 public:
     static bool asc(T a, T b){return a > b;};
     static bool desc(T a, T b){return a < b;};
+    virtual void burbuja(T [], int, bool(*) (T, T)) = 0;
 };
 
 template <class T>
 class Ordenamiento : public Base<T>
 {
 public:
-    static void burbuja(T [], int, bool(*) (T, T));
-    static void insercion(T [], int, bool(*) (T, T));
-    static void seleccion(T [], int, bool(*) (T, T));
+    void burbuja(T [], int, bool(*) (T, T));
+    void insercion(T [], int, bool(*) (T, T));
+    void seleccion(T [], int, bool(*) (T, T));
     
-    static void quicksort(T [], int, int, bool(*) (T, T));
-    static void mergesort(T [], int, int, bool(*) (T, T), int);
-    static void merge(T [], int, int, int, bool(*) (T, T), int);
+    void quicksort(T [], int, int, bool(*) (T, T));
+    void mergesort(T [], int, int, bool(*) (T, T), int);
+    void merge(T [], int, int, int, bool(*) (T, T), int);
 };
 
 template <class T>

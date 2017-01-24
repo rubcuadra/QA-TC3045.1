@@ -99,7 +99,7 @@ TEST_P(FixValParam,quicksort_desc)
 	int *array = &arr[0]; 
 	sorter->quicksort( array , 0,arr.size() , sorter->desc );
 	for (int i = 0; i < arr.size()-1; ++i)
-		EXPECT_GE(  arr.at(i) , arr.at(i+1));  // >=
+		EXPECT_GE( arr.at(i) , arr.at(i+1));  // >=
 }
 
 std::vector<int> v1 = {7, 5, 16, 8};
