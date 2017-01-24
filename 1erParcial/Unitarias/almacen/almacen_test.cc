@@ -18,7 +18,7 @@ public:
 
 private:
 	time_t tiempo;
-}
+};
 
 class AlmacenFixture : public ::testing::Test
 {
