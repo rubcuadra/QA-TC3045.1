@@ -11,10 +11,10 @@ public:
 		instance2Test = new instanceType;
 	}
 protected:
-	Base *instance2Test; //Debe ser de tipo Cypher
+	Cifrado *instance2Test; //Debe ser de tipo Cypher
 };
 
-typedef testing::Types<Child1,Child2> implementations; //Aqui va Caesar
+typedef testing::Types<Caesar> implementations; //Aqui va Caesar,Otro
 
 TYPED_TEST_CASE(FixTyped,implementations);
 
