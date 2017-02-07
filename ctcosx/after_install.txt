@@ -1,0 +1,69 @@
+make install $prefix=/opt/testwell/ctc_v8.1
+
+ctc -> /usr/local/bin/ctc
+ctcpost -> /usr/local/bin/ctcpost
+ctcxmlmerge -> /usr/local/bin/ctcxmlmerge
+ctc2dat -> /usr/local/bin/ctc2dat
+ctc2html -> /usr/local/bin/ctc2html
+ctc2excel -> /usr/local/bin/ctc2excel
+
+ctc.h -> /usr/local/include/ctc.h
+
+libctc.a -> /usr/local/lib/libctc.a
+
+readme.txt -> /usr/local/lib/ctc/readme.txt
+version.txt -> /usr/local/lib/ctc/version.txt
+ctc.ini -> /usr/local/lib/ctc/ctc.ini
+ctc2html.ini -> /usr/local/lib/ctc/ctc2html.ini
+
+ctcagent -> /usr/local/lib/ctc/wrap/ctcagent
+
+ctcwrap -> /usr/local/bin/ctcwrap
+
+Created directory /usr/local/man
+Created directory /usr/local/man/man1
+ctc.1 -> /usr/local/man/man1/ctc.1
+ctcpost.1 -> /usr/local/man/man1/ctcpost.1
+ctc2html.1 -> /usr/local/man/man1/ctc2html.1
+ctc2excel.1 -> /usr/local/man/man1/ctc2excel.1
+ctcxmlmerge.1 -> /usr/local/man/man1/ctcxmlmerge.1
+ctc2dat.1 -> /usr/local/man/man1/ctc2dat.1
+ctcwrap.1 -> /usr/local/man/man1/ctcwrap.1
+
+Created directory /usr/local/lib/ctc/doc
+combined-coverage.txt -> /usr/local/lib/ctc/doc/combined-coverage.txt
+ctcug.pdf -> /usr/local/lib/ctc/doc/ctcug.pdf
+no_cpp.txt -> /usr/local/lib/ctc/doc/no_cpp.txt
+readme.txt -> /usr/local/lib/ctc/doc/readme.txt
+timing.txt -> /usr/local/lib/ctc/doc/timing.txt
+tracer.txt -> /usr/local/lib/ctc/doc/tracer.txt
+when_problems.txt -> /usr/local/lib/ctc/doc/when_problems.txt
+
+Created directory /usr/local/lib/ctc/examples
+Created directory /usr/local/lib/ctc/examples/prime
+prime/calc.c -> /usr/local/lib/ctc/examples/prime/calc.c
+prime/calc.h -> /usr/local/lib/ctc/examples/prime/calc.h
+prime/fulldemo.sh -> /usr/local/lib/ctc/examples/prime/fulldemo.sh
+prime/io.c -> /usr/local/lib/ctc/examples/prime/io.c
+prime/io.h -> /usr/local/lib/ctc/examples/prime/io.h
+prime/makefile -> /usr/local/lib/ctc/examples/prime/makefile
+prime/prime.c -> /usr/local/lib/ctc/examples/prime/prime.c
+prime/readme.txt -> /usr/local/lib/ctc/examples/prime/readme.txt
+Created directory /usr/local/lib/ctc/examples/stack
+stack/cstack.cc -> /usr/local/lib/ctc/examples/stack/cstack.cc
+stack/cstack.h -> /usr/local/lib/ctc/examples/stack/cstack.h
+stack/fulldemo.sh -> /usr/local/lib/ctc/examples/stack/fulldemo.sh
+stack/makefile -> /usr/local/lib/ctc/examples/stack/makefile
+stack/readme.txt -> /usr/local/lib/ctc/examples/stack/readme.txt
+stack/revstack.cc -> /usr/local/lib/ctc/examples/stack/revstack.cc
+stack/revstack.h -> /usr/local/lib/ctc/examples/stack/revstack.h
+stack/stacktst.cc -> /usr/local/lib/ctc/examples/stack/stacktst.cc
+Created directory /usr/local/lib/ctc/examples/multilib
+multilib/fulldemo.sh -> /usr/local/lib/ctc/examples/multilib/fulldemo.sh
+multilib/main.c -> /usr/local/lib/ctc/examples/multilib/main.c
+multilib/makefile -> /usr/local/lib/ctc/examples/multilib/makefile
+multilib/readme.txt -> /usr/local/lib/ctc/examples/multilib/readme.txt
+multilib/reverse.c -> /usr/local/lib/ctc/examples/multilib/reverse.c
+multilib/reverse.h -> /usr/local/lib/ctc/examples/multilib/reverse.h
+multilib/strutil.c -> /usr/local/lib/ctc/examples/multilib/strutil.c
+multilib/strutil.h -> /usr/local/lib/ctc/examples/multilib/strutil.h
