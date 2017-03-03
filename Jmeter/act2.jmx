@@ -110,8 +110,8 @@ writer.close();</stringProp>
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">5</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <stringProp name="ThreadGroup.num_threads">200</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">5</stringProp>
         <longProp name="ThreadGroup.start_time">1488551991000</longProp>
         <longProp name="ThreadGroup.end_time">1488551991000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
@@ -154,17 +154,21 @@ int fixed_number = 0;
 String line = &quot;&quot;;
 while((line = br.readLine()) != null) 
 {
-	if(initial)
+	if(initial) //Esto siempre lo lee
 	{
 		initial = false;
 		fixed_number = ctx.getThreadNum()%( Integer.parseInt( line )  ); //Para que quepa como elemento del arreglo
 	}
-	if (fixed_number==0) break; //Aqui line ya tendra el pais a usar
-	--fixed_number;
+	else
+	{
+		if (fixed_number==0) break; //Aqui line ya tendra el pais a usar
+		--fixed_number;	
+	}	
 } 
 fileReader.close(); 
 
-vars.put( &quot;country&quot;,line );</stringProp>
+vars.put( &quot;country&quot;,line );
+System.out.println(line);</stringProp>
           </BeanShellPreProcessor>
           <hashTree/>
         </hashTree>
