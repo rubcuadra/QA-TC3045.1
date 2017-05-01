@@ -8,7 +8,7 @@ class TimeFixture : public ::testing::Test
 public:
 	virtual void SetUp()
 	{
-		tiempo = time(NULL)
+		tiempo = time(NULL);
 	}
 
 	virtual void TearDown()
