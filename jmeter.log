@@ -43,3 +43,12 @@
 2017/05/02 09:11:33 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
 2017/05/02 09:11:33 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
 2017/05/02 09:11:33 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2017/05/02 09:11:45 INFO  - jmeter.services.FileServer: Default base='/Users/rubcuadra/Desktop/QATC3045_1' 
+2017/05/02 09:11:45 INFO  - jmeter.gui.action.Load: Loading file: /Users/rubcuadra/Desktop/QATC3045_1/Jmeter/recorder.jmx 
+2017/05/02 09:11:45 INFO  - jmeter.services.FileServer: Set new base='/Users/rubcuadra/Desktop/QATC3045_1/Jmeter' 
+2017/05/02 09:11:45 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2017/05/02 09:11:45 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2017/05/02 09:11:45 INFO  - jmeter.save.SaveService: Using SaveService properties version 3.1 
+2017/05/02 09:11:45 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2017/05/02 09:11:45 INFO  - jmeter.save.SaveService: Loading file: /Users/rubcuadra/Desktop/QATC3045_1/Jmeter/recorder.jmx 
+2017/05/02 09:11:46 INFO  - jmeter.services.FileServer: Set new base='/Users/rubcuadra/Desktop/QATC3045_1/Jmeter' 
