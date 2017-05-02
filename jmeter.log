@@ -1,158 +1,45 @@
-2017/05/02 08:53:23 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
-2017/05/02 08:53:23 INFO  - jmeter.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/3.1/libexec/bin/user.properties 
-2017/05/02 08:53:23 INFO  - jmeter.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/3.1/libexec/bin/system.properties 
-2017/05/02 08:53:23 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
-2017/05/02 08:53:23 INFO  - jmeter.JMeter: Version 3.1 r1770033 
-2017/05/02 08:53:23 INFO  - jmeter.JMeter: java.version=1.8.0_111 
-2017/05/02 08:53:23 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
-2017/05/02 08:53:23 INFO  - jmeter.JMeter: os.name=Mac OS X 
-2017/05/02 08:53:23 INFO  - jmeter.JMeter: os.arch=x86_64 
-2017/05/02 08:53:23 INFO  - jmeter.JMeter: os.version=10.12.4 
-2017/05/02 08:53:23 INFO  - jmeter.JMeter: file.encoding=UTF-8 
-2017/05/02 08:53:23 INFO  - jmeter.JMeter: Max memory     =514850816 
-2017/05/02 08:53:23 INFO  - jmeter.JMeter: Available Processors =8 
-2017/05/02 08:53:23 INFO  - jmeter.JMeter: Default Locale=English (United States) 
-2017/05/02 08:53:23 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
-2017/05/02 08:53:23 INFO  - jmeter.JMeter: JMeterHome=/usr/local/Cellar/jmeter/3.1/libexec 
-2017/05/02 08:53:23 INFO  - jmeter.JMeter: user.dir  =/Users/rubcuadra/Desktop/QATC3045_1 
-2017/05/02 08:53:23 INFO  - jmeter.JMeter: PWD       =/Users/rubcuadra/Desktop/QATC3045_1 
-2017/05/02 08:53:23 INFO  - jmeter.JMeter: IP: 10.49.84.126 Name: Uc4n770uch7h15 FullName: 10.49.84.126 
-2017/05/02 08:53:24 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Mac OS X, System] 
-2017/05/02 08:53:24 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
-2017/05/02 08:53:26 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
-2017/05/02 08:53:26 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
-2017/05/02 08:53:27 INFO  - org.jmeterplugins.repository.PluginManager: Plugins Status: [jmeter-ftp=3.1, jmeter-http=3.1, jmeter-jdbc=3.1, jmeter-jms=3.1, jmeter-core=3.1, jpgc-json=2.6, jmeter-junit=3.1, jmeter-java=3.1, jmeter-ldap=3.1, jmeter-mail=3.1, jmeter-mongodb=3.1, jmeter-native=3.1, jpgc-plugins-manager=0.11, ssh-sampler=1.1.1-SNAPSHOT, jmeter-tcp=3.1, jmeter-components=3.1] 
-2017/05/02 08:53:28 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.assertions.BSFAssertion 
-2017/05/02 08:53:28 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.extractor.BSFPostProcessor 
-2017/05/02 08:53:28 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.modifiers.BSFPreProcessor 
-2017/05/02 08:53:28 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2017/05/02 08:53:28 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2017/05/02 08:53:28 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2017/05/02 08:53:28 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2017/05/02 08:53:28 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
-2017/05/02 08:53:28 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
-2017/05/02 08:53:28 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'keytool' 
-2017/05/02 08:53:28 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /usr/local/Cellar/jmeter/3.1/libexec/bin/proxyserver.jks 
-2017/05/02 08:53:29 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.java.sampler.BSFSampler 
-2017/05/02 08:53:29 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement 
-2017/05/02 08:53:29 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler 
-2017/05/02 08:53:29 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.timers.BSFTimer 
-2017/05/02 08:53:29 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.BSFListener 
-2017/05/02 08:53:29 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.MonitorHealthVisualizer 
-2017/05/02 08:53:29 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
-2017/05/02 08:53:29 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
-2017/05/02 08:53:29 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
-2017/05/02 08:53:29 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
-2017/05/02 08:55:13 INFO  - jmeter.services.FileServer: Default base='/Users/rubcuadra/Desktop/QATC3045_1' 
-2017/05/02 08:55:13 INFO  - jmeter.gui.action.Load: Loading file: /Users/rubcuadra/Desktop/QATC3045_1/Jmeter/RecordAnything.jmx 
-2017/05/02 08:55:13 INFO  - jmeter.services.FileServer: Set new base='/Users/rubcuadra/Desktop/QATC3045_1/Jmeter' 
-2017/05/02 08:55:13 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
-2017/05/02 08:55:13 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
-2017/05/02 08:55:13 INFO  - jmeter.save.SaveService: Using SaveService properties version 3.1 
-2017/05/02 08:55:13 INFO  - jmeter.save.SaveService: All converter versions present and correct 
-2017/05/02 08:55:13 INFO  - jmeter.save.SaveService: Loading file: /Users/rubcuadra/Desktop/QATC3045_1/Jmeter/RecordAnything.jmx 
-2017/05/02 08:55:14 INFO  - jmeter.services.FileServer: Set new base='/Users/rubcuadra/Desktop/QATC3045_1/Jmeter' 
-2017/05/02 08:55:50 INFO  - jmeter.gui.action.Load: Loading file: /Users/rubcuadra/Desktop/QATC3045_1/Jmeter/recorder.jmx 
-2017/05/02 08:55:50 INFO  - jmeter.services.FileServer: Set new base='/Users/rubcuadra/Desktop/QATC3045_1/Jmeter' 
-2017/05/02 08:55:50 INFO  - jmeter.save.SaveService: Loading file: /Users/rubcuadra/Desktop/QATC3045_1/Jmeter/recorder.jmx 
-2017/05/02 08:55:50 INFO  - jmeter.services.FileServer: Set new base='/Users/rubcuadra/Desktop/QATC3045_1/Jmeter' 
-2017/05/02 08:56:10 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
-2017/05/02 08:56:10 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2017/05/02 08:56:10 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2017/05/02 08:56:10 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
-2017/05/02 08:56:10 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
-2017/05/02 08:56:10 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
-2017/05/02 08:56:10 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2017/05/02 08:56:10 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
-2017/05/02 08:56:10 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
-2017/05/02 08:56:10 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
-2017/05/02 08:56:10 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
-2017/05/02 08:56:10 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = Uc4n770uch7h15 
-2017/05/02 08:56:10 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
-2017/05/02 08:56:10 INFO  - jmeter.protocol.http.sampler.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory 
-2017/05/02 08:56:10 INFO  - jmeter.util.JsseSSLManager: Using default SSL protocol: TLS 
-2017/05/02 08:56:10 INFO  - jmeter.util.JsseSSLManager: SSL session context: per-thread 
-2017/05/02 08:56:10 INFO  - jmeter.util.SSLManager: JmeterKeyStore Location:  type JKS 
-2017/05/02 08:56:10 INFO  - jmeter.util.SSLManager: KeyStore created OK 
-2017/05/02 08:56:10 WARN  - jmeter.util.SSLManager: Keystore file not found, loading empty keystore 
-2017/05/02 08:56:35 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
-2017/05/02 08:56:35 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
-2017/05/02 08:56:35 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
-2017/05/02 08:56:35 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
-2017/05/02 08:56:47 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
-2017/05/02 08:56:47 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2017/05/02 08:56:47 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
-2017/05/02 08:56:47 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
-2017/05/02 08:56:47 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
-2017/05/02 08:56:47 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2017/05/02 08:56:47 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
-2017/05/02 08:56:47 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
-2017/05/02 08:56:47 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
-2017/05/02 08:56:47 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
-2017/05/02 08:56:47 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
-2017/05/02 08:56:47 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
-2017/05/02 08:56:47 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
-2017/05/02 08:56:47 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
-2017/05/02 08:56:50 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
-2017/05/02 08:56:50 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2017/05/02 08:56:50 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
-2017/05/02 08:56:50 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
-2017/05/02 08:56:50 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
-2017/05/02 08:56:50 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2017/05/02 08:56:50 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
-2017/05/02 08:56:50 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
-2017/05/02 08:56:50 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
-2017/05/02 08:56:50 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
-2017/05/02 08:56:50 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
-2017/05/02 08:56:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
-2017/05/02 08:56:50 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
-2017/05/02 08:56:50 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
-2017/05/02 08:59:13 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
-2017/05/02 08:59:13 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2017/05/02 08:59:13 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
-2017/05/02 08:59:13 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
-2017/05/02 08:59:13 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
-2017/05/02 08:59:13 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2017/05/02 08:59:13 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
-2017/05/02 08:59:13 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
-2017/05/02 08:59:13 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
-2017/05/02 08:59:13 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
-2017/05/02 08:59:13 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
-2017/05/02 08:59:13 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
-2017/05/02 08:59:13 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
-2017/05/02 08:59:13 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
-2017/05/02 09:01:48 WARN  - jmeter.protocol.http.proxy.ProxyControl: Problem reading key store: NotAfter: Tue Feb 28 08:16:33 CST 2017 
-2017/05/02 09:01:48 INFO  - jmeter.protocol.http.proxy.ProxyControl: Creating Proxy CA in /usr/local/Cellar/jmeter/3.1/libexec/bin/proxyserver.jks 
-2017/05/02 09:01:51 WARN  - jorphan.exec.KeyToolUtils: Failed creating /Users/rubcuadra/Desktop/QATC3045_1/ApacheJMeterTemporaryRootCA.crt, check 'keytool' utility in path is available and points to a JDK >= 7 
-2017/05/02 09:01:51 INFO  - jmeter.protocol.http.proxy.ProxyControl: Created keystore in /usr/local/Cellar/jmeter/3.1/libexec/bin/proxyserver.jks 
-2017/05/02 09:01:51 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 8080 
-2017/05/02 09:01:51 INFO  - jmeter.protocol.http.proxy.Daemon: Test Script Recorder up and running! 
-2017/05/02 09:01:52 INFO  - jmeter.protocol.http.proxy.Proxy: Proxy will remove the headers: If-Modified-Since,If-None-Match,Host 
-2017/05/02 09:01:56 INFO  - jmeter.protocol.http.proxy.ProxyControl: [52859] Creating entry safebrowsing.google.com in /usr/local/Cellar/jmeter/3.1/libexec/bin/proxyserver.jks 
-2017/05/02 09:01:57 INFO  - jmeter.protocol.http.proxy.Proxy: [52859] KeyStore for SSL loaded OK and put host 'safebrowsing.google.com' in map with key (safebrowsing.google.com) 
-2017/05/02 09:01:57 WARN  - jmeter.protocol.http.proxy.Proxy: [52859] Problem with SSL certificate for 'safebrowsing.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca 
-2017/05/02 09:05:03 INFO  - jmeter.protocol.http.proxy.ProxyControl: [52869] Creating entry docs.google.com in /usr/local/Cellar/jmeter/3.1/libexec/bin/proxyserver.jks 
-2017/05/02 09:05:05 INFO  - jmeter.protocol.http.proxy.Proxy: [52869] KeyStore for SSL loaded OK and put host 'docs.google.com' in map with key (docs.google.com) 
-2017/05/02 09:05:05 INFO  - jmeter.protocol.http.proxy.ProxyControl: [52871] Creating entry www.gstatic.com in /usr/local/Cellar/jmeter/3.1/libexec/bin/proxyserver.jks 
-2017/05/02 09:05:07 INFO  - jmeter.protocol.http.proxy.ProxyControl: [52874] Creating entry www.google.com in /usr/local/Cellar/jmeter/3.1/libexec/bin/proxyserver.jks 
-2017/05/02 09:05:07 INFO  - jmeter.protocol.http.proxy.Proxy: [52871] KeyStore for SSL loaded OK and put host 'www.gstatic.com' in map with key (www.gstatic.com) 
-2017/05/02 09:05:08 INFO  - jmeter.protocol.http.proxy.ProxyControl: [52873] Creating entry fonts.googleapis.com in /usr/local/Cellar/jmeter/3.1/libexec/bin/proxyserver.jks 
-2017/05/02 09:05:08 INFO  - jmeter.protocol.http.proxy.Proxy: [52874] KeyStore for SSL loaded OK and put host 'www.google.com' in map with key (www.google.com) 
-2017/05/02 09:05:10 INFO  - jmeter.protocol.http.proxy.Proxy: [52873] KeyStore for SSL loaded OK and put host 'fonts.googleapis.com' in map with key (fonts.googleapis.com) 
-2017/05/02 09:05:10 WARN  - jmeter.protocol.http.proxy.HttpRequestHdr: Url 'https://fonts.googleapis.com:443/css?lang=es&family=Product+Sans|Roboto:400:700' contains unsafe characters, will escape it, message:Illegal character in query at index 64: https://fonts.googleapis.com:443/css?lang=es&family=Product+Sans|Roboto:400:700 
-2017/05/02 09:05:10 INFO  - jmeter.protocol.http.proxy.ProxyControl: [52877] Creating entry ssl.gstatic.com in /usr/local/Cellar/jmeter/3.1/libexec/bin/proxyserver.jks 
-2017/05/02 09:05:12 INFO  - jmeter.protocol.http.proxy.ProxyControl: [52887] Creating entry fonts.gstatic.com in /usr/local/Cellar/jmeter/3.1/libexec/bin/proxyserver.jks 
-2017/05/02 09:05:12 INFO  - jmeter.protocol.http.proxy.Proxy: [52877] KeyStore for SSL loaded OK and put host 'ssl.gstatic.com' in map with key (ssl.gstatic.com) 
-2017/05/02 09:05:14 INFO  - jmeter.protocol.http.proxy.Proxy: [52887] KeyStore for SSL loaded OK and put host 'fonts.gstatic.com' in map with key (fonts.gstatic.com) 
-2017/05/02 09:08:13 INFO  - jmeter.protocol.http.proxy.ProxyControl: [52969] Creating entry feedback.googleusercontent.com in /usr/local/Cellar/jmeter/3.1/libexec/bin/proxyserver.jks 
-2017/05/02 09:08:14 INFO  - jmeter.protocol.http.proxy.Proxy: [52969] KeyStore for SSL loaded OK and put host 'feedback.googleusercontent.com' in map with key (feedback.googleusercontent.com) 
-2017/05/02 09:08:46 INFO  - jmeter.protocol.http.proxy.ProxyControl: [53027] Creating entry www.google-analytics.com in /usr/local/Cellar/jmeter/3.1/libexec/bin/proxyserver.jks 
-2017/05/02 09:08:47 INFO  - jmeter.protocol.http.proxy.ProxyControl: [53036] Creating entry apis.google.com in /usr/local/Cellar/jmeter/3.1/libexec/bin/proxyserver.jks 
-2017/05/02 09:08:47 INFO  - jmeter.protocol.http.proxy.Proxy: [53027] KeyStore for SSL loaded OK and put host 'www.google-analytics.com' in map with key (www.google-analytics.com) 
-2017/05/02 09:08:49 INFO  - jmeter.protocol.http.proxy.ProxyControl: [53059] Creating entry ssl.google-analytics.com in /usr/local/Cellar/jmeter/3.1/libexec/bin/proxyserver.jks 
-2017/05/02 09:08:49 INFO  - jmeter.protocol.http.proxy.Proxy: [53036] KeyStore for SSL loaded OK and put host 'apis.google.com' in map with key (apis.google.com) 
-2017/05/02 09:08:50 INFO  - jmeter.protocol.http.proxy.ProxyControl: [53105] Creating entry accounts.google.com in /usr/local/Cellar/jmeter/3.1/libexec/bin/proxyserver.jks 
-2017/05/02 09:08:50 INFO  - jmeter.protocol.http.proxy.Proxy: [53059] KeyStore for SSL loaded OK and put host 'ssl.google-analytics.com' in map with key (ssl.google-analytics.com) 
-2017/05/02 09:08:51 INFO  - jmeter.protocol.http.proxy.ProxyControl: [53102] Creating entry 2542116.fls.doubleclick.net in /usr/local/Cellar/jmeter/3.1/libexec/bin/proxyserver.jks 
-2017/05/02 09:08:51 INFO  - jmeter.protocol.http.proxy.Proxy: [53105] KeyStore for SSL loaded OK and put host 'accounts.google.com' in map with key (accounts.google.com) 
-2017/05/02 09:08:53 INFO  - jmeter.protocol.http.proxy.Proxy: [53102] KeyStore for SSL loaded OK and put host '2542116.fls.doubleclick.net' in map with key (2542116.fls.doubleclick.net) 
+2017/05/02 09:11:28 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2017/05/02 09:11:28 INFO  - jmeter.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/3.1/libexec/bin/user.properties 
+2017/05/02 09:11:28 INFO  - jmeter.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/3.1/libexec/bin/system.properties 
+2017/05/02 09:11:28 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2017/05/02 09:11:28 INFO  - jmeter.JMeter: Version 3.1 r1770033 
+2017/05/02 09:11:28 INFO  - jmeter.JMeter: java.version=1.8.0_111 
+2017/05/02 09:11:28 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2017/05/02 09:11:28 INFO  - jmeter.JMeter: os.name=Mac OS X 
+2017/05/02 09:11:28 INFO  - jmeter.JMeter: os.arch=x86_64 
+2017/05/02 09:11:28 INFO  - jmeter.JMeter: os.version=10.12.4 
+2017/05/02 09:11:28 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2017/05/02 09:11:28 INFO  - jmeter.JMeter: Max memory     =514850816 
+2017/05/02 09:11:28 INFO  - jmeter.JMeter: Available Processors =8 
+2017/05/02 09:11:28 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2017/05/02 09:11:28 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2017/05/02 09:11:28 INFO  - jmeter.JMeter: JMeterHome=/usr/local/Cellar/jmeter/3.1/libexec 
+2017/05/02 09:11:28 INFO  - jmeter.JMeter: user.dir  =/Users/rubcuadra/Desktop/QATC3045_1 
+2017/05/02 09:11:28 INFO  - jmeter.JMeter: PWD       =/Users/rubcuadra/Desktop/QATC3045_1 
+2017/05/02 09:11:28 INFO  - jmeter.JMeter: IP: 10.49.84.126 Name: Uc4n770uch7h15 FullName: 10.49.84.126 
+2017/05/02 09:11:29 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Mac OS X, System] 
+2017/05/02 09:11:29 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2017/05/02 09:11:30 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2017/05/02 09:11:30 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2017/05/02 09:11:32 INFO  - org.jmeterplugins.repository.PluginManager: Plugins Status: [jmeter-ftp=3.1, jmeter-http=3.1, jmeter-jdbc=3.1, jmeter-jms=3.1, jmeter-core=3.1, jpgc-json=2.6, jmeter-junit=3.1, jmeter-java=3.1, jmeter-ldap=3.1, jmeter-mail=3.1, jmeter-mongodb=3.1, jmeter-native=3.1, jpgc-plugins-manager=0.11, ssh-sampler=1.1.1-SNAPSHOT, jmeter-tcp=3.1, jmeter-components=3.1] 
+2017/05/02 09:11:32 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.assertions.BSFAssertion 
+2017/05/02 09:11:32 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.extractor.BSFPostProcessor 
+2017/05/02 09:11:32 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.modifiers.BSFPreProcessor 
+2017/05/02 09:11:32 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/05/02 09:11:32 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/05/02 09:11:32 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/05/02 09:11:32 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/05/02 09:11:32 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2017/05/02 09:11:32 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
+2017/05/02 09:11:33 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'keytool' 
+2017/05/02 09:11:33 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /usr/local/Cellar/jmeter/3.1/libexec/bin/proxyserver.jks 
+2017/05/02 09:11:33 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.java.sampler.BSFSampler 
+2017/05/02 09:11:33 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement 
+2017/05/02 09:11:33 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler 
+2017/05/02 09:11:33 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.timers.BSFTimer 
+2017/05/02 09:11:33 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.BSFListener 
+2017/05/02 09:11:33 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.MonitorHealthVisualizer 
+2017/05/02 09:11:33 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2017/05/02 09:11:33 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2017/05/02 09:11:33 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2017/05/02 09:11:33 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
